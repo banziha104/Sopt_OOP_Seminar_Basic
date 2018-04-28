@@ -11,4 +11,9 @@ public class YoungJoon extends HomoSapience {
     void drive(){
         System.out.println("부릉");
     }
+
+
+    String drive(String car) {
+        return car;
+    }
 }

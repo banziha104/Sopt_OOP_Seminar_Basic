@@ -4,14 +4,24 @@ public class Main {
     public static void main(String args[]){
 
         YoungJoon youngJoon = new YoungJoon();
-        HomoSapience homoYoungjoon = new YoungJoon();
+        HomoSapience homoYoungjoon = (HomoSapience) new YoungJoon();
+        int a = 1;
+        double d = (double)a;
 
+        System.out.println(d);
 
+        youngJoon.sendKakaoTalk();
 
-        youngJoon.drive();
-        youngJoon.makeTogi();
+//        homoYoungjoon.sendKakaoTalk();
 
-        homoYoungjoon.makeTogi();
+//        youngJoon.drive();
+//        youngJoon.drive("쏘나타");
+//
+//
+//        youngJoon.drive();
+//        youngJoon.makeTogi();
+//
+//        homoYoungjoon.makeTogi();
 
 //        YoungJoon youngJoon = new YoungJoon();
 //        youngJoon.drive();

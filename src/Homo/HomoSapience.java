@@ -9,7 +9,7 @@ public class HomoSapience {
         System.out.println("맼섬 토기");
     }
 
-    void fireMeet(){
-        System.out.println("불에 고기를 굽습니다 추르르륵");
+    void fireMeet() throws Exception {
+//        Snake snake = new HomoSapience();
     }
 }
