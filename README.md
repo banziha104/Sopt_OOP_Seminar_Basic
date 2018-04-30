@@ -1,6 +1,12 @@
 # Sopt_OOP_Seminar_Basic
 Sopt 객체지향 세미나 기본 코드
 
+<br>
+
+### License
+
+<br>
+
 ```
 MIT License
 
