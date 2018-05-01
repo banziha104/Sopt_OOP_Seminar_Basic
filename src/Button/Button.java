@@ -18,7 +18,8 @@ public class Button {
         return isClicked;
     }
 
-    //코드상에서 누르기
+    // onClick()은 로직이 없는데 컴파일 상에 문제는 없습니다
+    // 구체화시 만들어진 로직이 실행되게 됩니다.
     public void perform(){
         listener.onClick();
     }

@@ -1,5 +1,6 @@
 package Responsebilty;
 
+// 데이터를 변환하는 책임만 짐
 public class DataTransFiler {
     public static String netWorkData;
     // 데이터를 전송
